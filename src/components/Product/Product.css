@@ -1,17 +1,16 @@
 .product{
     width: 300px;
     height: 450px;
-    border: 2px solid rgb(241, 237, 201);
+    border: 2px solid rgb(238, 227, 127);
     border-radius: 15px;
     position: relative;
-    box-shadow: 8px 5px 5px gray;
+    box-shadow: 8px 5px 5px rgb(66, 64, 64);
 }
 .product-name{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 21px;
     font-weight: 400;
     line-height: 25px;
-    /* margin: 4px; */
 }
 .product img{
     width: 280px;

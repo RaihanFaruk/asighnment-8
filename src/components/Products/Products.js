@@ -46,10 +46,10 @@ const Products = () => {
           <Cart key={item.id} item={item}></Cart>
         ))}
         <button onClick={randomOne}>
-          <p>Choose one</p>
+          <p>Choose best 1</p>
         </button>
         <button onClick={resetButton}>
-          <p>Choose Again</p>
+          <p>Select Again</p>
         </button>
       </div>
       <BonusSubject></BonusSubject>

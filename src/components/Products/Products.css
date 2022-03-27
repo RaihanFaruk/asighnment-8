@@ -26,8 +26,6 @@
         display: grid;
         grid-template-columns: 1fr;
         gap: 5px;
-        /* margin-right: 0px;
-       margin-left: auto; */
        margin: auto;
        margin-bottom: 10px;
     }
