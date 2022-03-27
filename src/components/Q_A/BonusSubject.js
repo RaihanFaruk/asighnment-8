@@ -6,28 +6,21 @@ const BonusSubject = () => {
       <div>
         <h2> How React Work</h2>
         <p>
-          React uses a virtual DOM, which is a JS version of a DOM tree. As a
-          result, it will use the virtual representation of the DOM when reading
-          or writing to it. The virtual DOM will then attempt to update the
-          browser's DOM in the most efficient manner possible. React elements,
-          unlike browser DOM elements, are simple objects that are easy to
-          generate. The DOM is updated to match the React elements by React DOM.
-          The reason for this is that JS is really fast, thus it's worthwhile to
-          have a DOM tree in it to speed up operations. Although React was
-          designed to be used in the browser, it can also be utilized in the
-          server using Node.js due to its design.
+        React is a very popular JavaScript library. With over 5.5 million weekly downloads, React is enjoying great popularity. But not a lot of React developers know how React works under the hood.
+
+In this post, I'll try to uncover some interesting things about React which you, as a React developer, might find fascinating. Let's start at the beginning.
+
+But before we start, if you're a React developer, I have some exciting news for you! Once you complete this article, you'll get to develop something cool with React and win prizes on the way :)
         </p>
       </div>
       <div>
         <h2>Difference between props and state</h2>
         <p>
-          Props and state are linked. A component's state will frequently become
-          the props of a child component. Props are supplied to the child as the
-          second parameter in the parent's render method. Data is passed from
-          one component to another using props. The state is a type of local
-          data storage that can only be accessed by the component and cannot be
-          shared with other components.
+          <h3>State</h3>
+          <li>The state is an updatable structure that is used to contain data or information about the component and can change over time. The change in state can happen as a response to user action or system event. It is the heart of the react component which determines the behavior of the component and how it will render. A state must be kept as simple as possible. It represents the component's local state or information. It can only be accessed or modified inside the component or by the component directly.</li>
         </p>
+        <h3>Props</h3>
+        <p><li>Props are read-only components. It is an object which stores the value of attributes of a tag and work similar to the HTML attributes. It allows passing data from one component to other components. It is similar to function arguments and can be passed to the component the same way as arguments passed in a function. Props are immutable so we cannot modify the props from inside the component</li></p>
       </div>
     </div>
   );
