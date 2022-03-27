@@ -1,20 +1,21 @@
 .Products-container{
     display: grid;
     grid-template-columns: 3.5fr 1.5fr;
-    margin-right:15px;
-    margin-left:15px;
-    margin-top: 25px;
+    margin-right:10px;
+    margin-left:10px;
+    margin-top: 35px;
 }
 .product-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
+    gap: 25px;
     margin-right: 8px;
 }
 .cart-container{
     border: 1px solid rgb(91, 151, 211);
-    border-radius: 10px;
-    box-shadow: rgb(169, 169, 169) 9px;
+    border-radius: 5px;
+    background-color: rgb(232, 243, 233);
+    box-shadow: rgb(255, 255, 255) 9px;
 }
 @media screen and (max-width: 600px) {
     .Products-container{
